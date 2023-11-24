@@ -1,0 +1,156 @@
+[
+    {
+      "id": 1,
+      "avatar": "default-avatar.jpg",
+      "name": "Do Dong Duong",
+      "role": "Cựu trẻ em",
+      "bio": "CV đi tù",
+      "detail": {
+        "dateOfBirth": "18/12/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn", "Ăn được nhiều cơm"],
+      "skills": ["Ăn", "Uống"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"],["THPT Lê Xoay", "2017", "2020"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    },
+    {
+      "id": 2,
+      "avatar": "default-avatar.jpg",
+      "name": "abc",
+      "role": "abc",
+      "bio": "abc",
+      "detail": {
+        "dateOfBirth": "18/12/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn"],
+      "skills": ["Ăn", "Uống"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    },
+    {
+      "id": 3,
+      "avatar": "default-avatar.jpg",
+      "name": "abc",
+      "role": "abc",
+      "bio": "abc",
+      "detail": {
+        "dateOfBirth": "18/12/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn"],
+      "skills": ["Ăn", "Uống"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    },
+    {
+      "id": 4,
+      "avatar": "default-avatar.jpg",
+      "name": "abc",
+      "role": "abc",
+      "bio": "abc",
+      "detail": {
+        "dateOfBirth": "18/12/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn"],
+      "skills": ["Ăn", "Uống"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    },
+    {
+      "id": 5,
+      "avatar": "default-avatar.jpg",
+      "name": "abc",
+      "role": "abc",
+      "bio": "abc",
+      "detail": {
+        "dateOfBirth": "18/12/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn"],
+      "skills": ["Ăn", "Uống"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    },
+    {
+      "id": 6,
+      "avatar": "default-avatar.jpg",
+      "name": "abc",
+      "role": "abc",
+      "bio": "abc",
+      "detail": {
+        "dateOfBirth": "18/12/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn"],
+      "skills": ["Ăn", "Uống"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    },
+    {
+      "id": 7,
+      "avatar": "default-avatar.jpg",
+      "name": "Trinh Hoang Quan",
+      "role": "Gamer",
+      "bio": "Actor",
+      "detail": {
+        "dateOfBirth": "27/02/2002",
+        "gender": "Male",
+        "address": "Hanoi",
+        "email": "idkr37@gmail.com"
+      },
+      "target": ["Đậu phỏng vấn"],
+      "skills": ["Ăn cứt", "Uống nước đái"],
+      "education": [["Đại học công nghiệp Hà Nội", "2020", "2024"]],
+      "experience": [{"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]},
+      {"name": "Công ty TNHH chỉ mình tôi", "position": "Giám đốc", "start": "18/12/2002", "end": "now"
+      , "detail":["Ăn bám", "Ăn bám"]}],
+      "achievement": ["Cựu trẻ em"],
+      "activities": ["Ăn cơm tại nhà trẻ xã Lý Nhân"]
+    }
+  ]
