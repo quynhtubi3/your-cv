@@ -2,39 +2,36 @@ import { Spin } from "antd";
 import Cookies from "js-cookie";
 import logo from "../../imgs/logo.jpg";
 import { Suspense, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function SignIn() {
-  const [userName, setUserName] = useState("");
-  const [passWord, setPassWord] = useState("");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [loggedIn, setLoggedIn] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleUserNameChange = (event) => {
-    setUserName(event.target.value);
-  };
-
-  const handlePasswordChange = (event) => {
-    setPassWord(event.target.value);
-  };
-  var isLogged = Cookies.get("isLogged");
-  const logInCheck = (event) => {
-    event.preventDefault();
-    const falseLog = document.querySelector(".falseAlert");
-    if (userName === "idkr37@gmail.com" && passWord === "quynh123") {
+  const logInCheck = () => {
+    if (username === "idkr37@gmail.com" && password === "quynh123") {
       Cookies.remove("userName");
       Cookies.remove("passWord");
       Cookies.remove("isLogged");
       Cookies.remove("decentralization");
-      Cookies.set("userName", userName);
-      Cookies.set("passWord", passWord);
+      Cookies.set("userName", username);
+      Cookies.set("passWord", password);
       Cookies.set("isLogged", true);
       Cookies.set("decentralization", "user");
+      setLoggedIn(true);
     } else {
+      Cookies.remove("userName");
+      Cookies.remove("passWord");
+      Cookies.remove("decentralization");
       Cookies.set("isLogged", false);
-      falseLog.classList.remove("hidden");
+      setError("Invalid username or password!");
     }
   };
-
-  // console.log(isLogged);
+  if (loggedIn) {
+    return <Navigate to="/dashboard" replace={true} />;
+  }
   return (
     <Suspense
       fallback={
@@ -71,7 +68,8 @@ function SignIn() {
                     id="email"
                     placeholder="you@company.com"
                     class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                    onChange={handleUserNameChange}
+                    onChange={(e) => setUsername(e.target.value)}
+                    value={username}
                   />
                 </div>
                 <div class="mb-6">
@@ -95,19 +93,19 @@ function SignIn() {
                     id="password"
                     placeholder="Your Password"
                     class="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500"
-                    onChange={handlePasswordChange}
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
                   />
                 </div>
-                <div className="text-center text-red-500 mb-[10px] hidden falseAlert">
-                  Invalid username or password!
-                </div>
+                {error && (
+                  <div className="text-center text-red-700 mb-[20px] text-[20px]">
+                    {error}
+                  </div>
+                )}
                 <div className="mb-6" onClick={logInCheck}>
-                  <NavLink
-                    to={isLogged ? "dashboard" : "/"}
-                    className="flex justify-center h-[40px] items-center w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none"
-                  >
+                  <div className="flex justify-center h-[40px] items-center w-full px-3 py-4 text-white bg-indigo-500 rounded-md focus:bg-indigo-600 focus:outline-none">
                     Sign in
-                  </NavLink>
+                  </div>
                 </div>
                 <p class="text-sm text-center text-gray-400">
                   Don&#x27;t have an account yet?{" "}

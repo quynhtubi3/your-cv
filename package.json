@@ -55,7 +55,7 @@
     "react-modal-video": "^2.0.0",
     "react-redux": "^7.2.6",
     "react-responsive-masonry": "^2.1.4",
-    "react-router-dom": "^6.3.0",
+    "react-router-dom": "^6.20.0",
     "react-rte": "^0.16.5",
     "react-scripts": "5.0.0",
     "react-svg": "^14.1.9",
