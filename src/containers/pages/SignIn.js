@@ -15,7 +15,7 @@ function SignIn() {
   const handlePasswordChange = (event) => {
     setPassWord(event.target.value);
   };
-  const isLogged = Cookies.get("isLogged");
+  var isLogged = Cookies.get("isLogged");
   const logInCheck = (event) => {
     event.preventDefault();
     const falseLog = document.querySelector(".falseAlert");
